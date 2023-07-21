@@ -1,0 +1,90 @@
+/* Write your CSS code here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  padding: 20px;
+}
+.heading {
+  color: #ea580c;
+  font-family: 'Roboto';
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.label-name-heading {
+  color: #475569;
+  font-family: 'Roboto';
+  margin-bottom: 3px;
+  font-weight: 600;
+}
+.input-field {
+  height: 30px;
+  padding: 3px;
+  background-color: transparent;
+  border: 1px solid #cbd2d9;
+  outline: none;
+  margin-bottom: 15px;
+}
+.submit-button {
+  background-color: #ea580c;
+  padding: 5px;
+  color: #ffffff;
+  border: 0px none transparent;
+  outline: none;
+  border-radius: 5px;
+}
+.req-color {
+  color: #ff0b37;
+  font-family: 'Roboto';
+}
+.input-color {
+  border: 1px solid #ff0b37;
+}
+.registration-submit-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+}
+.submit-text {
+  color: #475569;
+  font-family: 'Roboto';
+}
+
+@media (min-width: 768px) {
+  .form-container {
+    box-shadow: 1px 1px 1px 1px #cbd2d9;
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    width: 400px;
+    max-width: 500px;
+    padding: 40px;
+  }
+  .registration-submit-container {
+    box-shadow: 1px 1px 1px 1px #cbd2d9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 300px;
+    width: 400px;
+    max-width: 500px;
+    padding: 40px;
+    border-radius: 5px;
+  }
+  .logo {
+    width: 60px;
+    height: 60px;
+  }
+}
